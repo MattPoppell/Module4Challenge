@@ -67,10 +67,11 @@ var questionsArray = [
         correctAnswer: 2
     },
     {
-        question: "",
-        answerChoice: ["A) Javascript", "B) HTML", "D) BonesDB", "D) None of the above"],
-        correctAnswer: 1
+        question: "How about a free one?",
+        answerChoice: ["A) No", "B) No thanks", "D) Yes, please", "D) Not today"],
+        correctAnswer: 2
     }
+    
 ];
 
 
