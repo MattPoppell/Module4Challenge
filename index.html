@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Mod4Challenge</title>
+</head>
+<body>
+    <header id="title-slot" style="text-align: center;">
+        <h1>Module 4 Challenge Student Quiz</h1>
+        <div class="timerclass" id="timer" style="font-size: x-large;">
+        </div>
+        <div class="scoreSection" id="score">
+        </div>
+    </header>
+        
+        <div id="questContainer" >
+          <h2 id="question"></h2>
+          
+             <ul>
+                <div class="choices">
+                    <div>
+                        <button id="choiceA"></button>
+                    </div>
+                    <div>
+                        <button id="choiceB"></button>
+                    </div>
+                    <div>
+                        <button id="choiceC"></button>
+                    </div>
+                    <div>
+                        <button id="choiceD"></button>
+                    </div>
+                </div>    
+             </ul>
+        </div>
+</body>
+
+
+    <button class="startbutton" id="startbuttonEl">Start Game</button>
+    <div class="answerArea" id="answer">
+    </div>
+    <div id= "endOfGame" style="display: none">
+        <h2> Game Over</h2>
+        Initials: <input type="text"  value="initials" id="initials">
+        </br>
+        <input type="button" value="submit" id="submitButton" onclick="submit_score()">
+    </div>
+    <div id="scoresPage" style="display: none" >
+        <h2> Final Scores </h2>
+        <div id="scores"></div>
+            <input type="button" value="Go Back" id="go_back" onclick="reset()">
+        </div>
+    
+
+</body>
+
+ <script src="./assets/script.js"></script>
+</html>
