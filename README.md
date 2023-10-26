@@ -12,6 +12,7 @@ Upon the page loading, the user is encourage to initiate a quiz about front-end 
 ## Live Link
 
 ## Screenshot
+<img width="1463" alt="Screenshot 2023-10-26 at 4 40 28 PM" src="https://github.com/MattPoppell/fluffy-fortnight/assets/142950050/4929c801-b588-4642-9a0e-f9696c79029a">
 
 ## Credits
 I utilized student tutoring services extensively with this project, as well as some additional advice from my old friend and mentor, Randall Peterson.
